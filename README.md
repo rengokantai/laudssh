@@ -59,4 +59,14 @@ when dont want this session,
 ```
 ctrl c
 ```
-  
+##4. Setting Up an SSH Server
+###1 Setting up the SSH service on Linux
+```
+yum install -y openssh-server
+```
+```
+service sshd start
+```
+
+###2 Setting up the SSH service on Mac OS X
+apple->system preferences->sharing
